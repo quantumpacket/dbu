@@ -3,10 +3,10 @@
 #Screenshot: inkscape
 #Cat: Multimedia
 
-inkscape
-create-resources
-python-lxml
-pstoedit
+#Alt: inkscape
+#Alt: create-resources
+#Alt: python-lxml
+#Alt: pstoedit
 
 #pencil2d #buster only
 #Alt: dia

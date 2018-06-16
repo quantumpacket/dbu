@@ -72,7 +72,7 @@ dconf-gsettings-backend
 
 # Resources
 desktop-base
-faenza-icon-theme
+#Alt: faenza-icon-theme
 gnome-audio
 clearlooks-phenix-theme
 gnome-themes-standard

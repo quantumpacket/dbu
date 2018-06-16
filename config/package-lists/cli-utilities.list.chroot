@@ -35,7 +35,6 @@ tree
 #Alt: safe-rm
 #Alt: mmv
 #Alt: hardlink
-#Alt: ranger
 
 # Archive management/compression
 gzrt
@@ -74,6 +73,7 @@ hdparm
 sdparm
 dfc
 kpartx
+qemu-utils
 xorriso
 
 #Alt: pmount
@@ -112,7 +112,7 @@ media-player-info
 # Media download
 youtube-dl
 ffmpeg
-streamlink
+#Alt: streamlink
 subliminal
 
 #Alt: get-flash-videos
@@ -153,6 +153,8 @@ traceroute
 #Alt: gwakeonlan
 #Alt: rclone
 #Alt: pastebinit
+#Alt: netcat-openbsd
+
 
 # Monitoring
 htop
@@ -187,7 +189,7 @@ debsums
 
 # Misc
 ansible
-asciinema
+#Alt: asciinema
 at
 autojump
 bash-completion
@@ -205,7 +207,7 @@ less
 manpages
 manpages-dev
 moreutils
-nss-passwords
+#Alt: nss-passwords
 pv
 python-selinux
 sed

@@ -7,10 +7,10 @@
 #Screenshot: meld
 #Screenshot: gource
 #Screenshot: poedit
-gitg
-meld
-gource
-poedit
+#Alt: gitg
+#Alt: meld
+#Alt: gource
+#Alt: poedit
 
 ##Screenshot: tdfsb
 #Alt: tdfsb
@@ -35,53 +35,53 @@ poedit
 # Version control systems
 #Screenshot: tig
 git
-git-svn
-git-mediawiki
-hg-fast-export
-mercurial
-subversion
-tig
-github-backup
-ghi
-myrepos
+#Alt: git-svn
+#Alt: git-mediawiki
+#Alt: hg-fast-export
+#Alt: mercurial
+#Alt: subversion
+#Alt: tig
+#Alt: github-backup
+#Alt: ghi
+#Alt: myrepos
 
 # Shell scripting
-shellcheck
+#Alt: shellcheck
 
 # Parsers/converters
-pandoc
-jq
-xmlstarlet
-aha
-groff
+#Alt: pandoc
+#Alt: jq
+#Alt: xmlstarlet
+#Alt: aha
+#Alt: groff
 
 #Alt: man2html-base
 #Alt: txt2tags
 #Alt: mkdocs
 
 # Packaging/C
-debhelper
-autoconf
-devscripts
-dh-make
-equivs
+#Alt: debhelper
+#Alt: autoconf
+#Alt: devscripts
+#Alt: dh-make
+#Alt: equivs
 build-essential
-checkinstall
-fakeroot
-debconf-utils
-lintian
-git-buildpackage
-gdb
+#Alt: checkinstall
+#Alt: fakeroot
+#Alt: debconf-utils
+#Alt: lintian
+#Alt: git-buildpackage
+#Alt: gdb
 
 # Python dev
-python-all-dev
-python-demjson
-python-libtorrent
-python-setuptools
-python-stdeb
-python-tox
+#Alt: python-all-dev
+#Alt: python-demjson
+#Alt: python-libtorrent
+#Alt: python-setuptools
+#Alt: python-stdeb
+#Alt: python-tox
 python-virtualenv
-python3-wheel
+#Alt: python3-wheel
 python3-pip
 python3-venv
 virtualenv
@@ -93,7 +93,7 @@ virtualenv
 # Live system/debian
 live-build
 debootstrap
-live-images
+#Alt: live-images
 #Alt: live-config-doc
 #Alt: live-manual-pdf
 #Alt: live-manual-html
@@ -113,14 +113,15 @@ live-images
 #live-task-lxqt #sid only
 
 # Ruby/Node/Webdev/other
-rubygems
-ruby-dev
-csstidy
-sqlite3
-webcheck
-vera
+#Alt: rubygems
+#Alt: ruby-dev
+#Alt: csstidy
+#Alt: sqlite3
+#Alt: webcheck
 #Alt: php-cli
 #Alt: nodejs
+#Alt: vera
+#Alt: ranger
 #csvkit #buster only
 #npm #jessie only
 
@@ -161,14 +162,14 @@ vera
 gcolor2
 imagemagick
 optipng
-advancecomp
+#Alt: advancecomp
 jpegoptim
-pngcrush
-exifprobe
-findimagedupes
+#Alt: pngcrush
+#Alt: exifprobe
+#Alt: findimagedupes
 librsvg2-bin
-figlet
-toilet
+#Alt: figlet
+#Alt: toilet
 
 
 #Alt: scrot
