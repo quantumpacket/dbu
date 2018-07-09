@@ -53,16 +53,15 @@
 * [sdparm](https://packages.debian.org/stretch/sdparm) `1.08-1+b1` - Output and modify SCSI device parameters
 * [dfc](https://packages.debian.org/stretch/dfc) `3.0.5-0.1+b1` - display file system usage using graph and colors
 * [kpartx](https://packages.debian.org/stretch/kpartx) `0.6.4-5` - create device mappings for partitions
-* [qemu-utils](https://packages.debian.org/stretch/qemu-utils) `1:2.8+dfsg-6+deb9u4` - QEMU utilities
 * [xorriso](https://packages.debian.org/stretch/xorriso) `1.4.6-1+b1` - command line ISO-9660 and Rock Ridge manipulation tool
 * [testdisk](https://packages.debian.org/stretch/testdisk) `7.0-3` - Partition scanner and disk recovery tool, and PhotoRec file recovery tool
 * [sox](https://packages.debian.org/stretch/sox) `14.4.1-5+b2` - Swiss army knife of sound processing
-* [ffmpeg](https://packages.debian.org/stretch/ffmpeg) `7:3.2.10-1~deb9u1` - Tools for transcoding, streaming and playing of multimedia files
+* [ffmpeg](https://packages.debian.org/stretch/ffmpeg) `7:3.2.12-1~deb9u1` - Tools for transcoding, streaming and playing of multimedia files
 * [mediainfo](https://packages.debian.org/stretch/mediainfo) `0.7.91-1` - command-line utility for reading information from audio/video files
 * [media-player-info](https://packages.debian.org/stretch/media-player-info) `22-3` - Media player identification files
 * [youtube-dl](https://packages.debian.org/stretch/youtube-dl) `2017.05.18.1-1` - downloader of videos from YouTube and other sites
-* [ffmpeg](https://packages.debian.org/stretch/ffmpeg) `7:3.2.10-1~deb9u1` - Tools for transcoding, streaming and playing of multimedia files
-* [livestreamer](https://packages.debian.org/stretch/livestreamer) `1.12.2-1` - transitional package - streamlink
+* [ffmpeg](https://packages.debian.org/stretch/ffmpeg) `7:3.2.12-1~deb9u1` - Tools for transcoding, streaming and playing of multimedia files
+* [streamlink](https://packages.debian.org/stretch/streamlink) `0.12.1+dfsg-1~bpo9+1` - CLI for extracting video streams from various websites to a video player
 * [subliminal](https://packages.debian.org/stretch/subliminal) `1.1.1-2` - Command-line tool to search and download subtitles
 * [hostname](https://packages.debian.org/stretch/hostname) `3.18+b1` - utility to set/show the host name or domain name
 * [bridge-utils](https://packages.debian.org/stretch/bridge-utils) `1.5-13+deb9u1` - Utilities for configuring the Linux Ethernet bridge
@@ -83,7 +82,7 @@
 * [strace](https://packages.debian.org/stretch/strace) `4.15-2` - System call tracer
 * [memtest86+](https://packages.debian.org/stretch/memtest86+) `5.01-3` - thorough real-mode memory tester
 * [debsums](https://packages.debian.org/stretch/debsums) `2.2.2` - tool for verification of installed package files against MD5 checksums
-* [ansible](https://packages.debian.org/stretch/ansible) `2.2.1.0-2` - Configuration management, deployment, and task execution system
+* [ansible](https://packages.debian.org/stretch/ansible) `2.5.2+dfsg-1~bpo9+1` - Configuration management, deployment, and task execution system
 * [asciinema](https://packages.debian.org/stretch/asciinema) `1.3.0-2` - Record and share your terminal sessions, the right way
 * [at](https://packages.debian.org/stretch/at) `3.1.20-3` - Delayed job execution and batch processing
 * [autojump](https://packages.debian.org/stretch/autojump) `22.5.0-2` - shell extension to jump to frequently used directories
@@ -120,6 +119,7 @@
  * [safe-rm](https://packages.debian.org/stretch/safe-rm) wrapper around the rm command to prevent accidental deletions
  * [mmv](https://packages.debian.org/stretch/mmv) Move/Copy/Append/Link multiple files
  * [hardlink](https://packages.debian.org/stretch/hardlink) Hardlinks multiple copies of the same file
+ * [ranger](https://packages.debian.org/stretch/ranger) File manager with an ncurses frontend written in Python
  * [p7zip-rar](https://packages.debian.org/stretch/p7zip-rar) non-free rar module for p7zip
  * [pmount](https://packages.debian.org/stretch/pmount) mount removable devices as normal user
  * [ecryptfs-utils](https://packages.debian.org/stretch/ecryptfs-utils) ecryptfs cryptographic filesystem (utilities)
@@ -163,7 +163,6 @@
  * [gwakeonlan](https://packages.debian.org/stretch/gwakeonlan) wakes up your machines using Wake on LAN
  * [rclone](https://packages.debian.org/stretch/rclone) rsync for commercial cloud storage
  * [pastebinit](https://packages.debian.org/stretch/pastebinit) command-line pastebin client
- * [netcat-openbsd](https://packages.debian.org/stretch/netcat-openbsd) TCP/IP swiss army knife
  * [screenfetch](https://packages.debian.org/stretch/screenfetch) Bash Screenshot Information Tool
  * [glances](https://packages.debian.org/stretch/glances) Curses-based monitoring tool
  * [cpulimit](https://packages.debian.org/stretch/cpulimit) tool for limiting the CPU usage of a process

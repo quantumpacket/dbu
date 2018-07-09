@@ -36,8 +36,8 @@ application using the XUL user interface language.
 
 ### Installed packages
 
-* [thunderbird](https://packages.debian.org/stretch/thunderbird) `1:52.8.0-1~deb9u1` - mail/news client with RSS, chat and integrated spam filter support
-* [thunderbird-l10n-fr](https://packages.debian.org/stretch/thunderbird-l10n-fr) `1:52.8.0-1~deb9u1` - French language package for Thunderbird
+* [thunderbird](https://packages.debian.org/stretch/thunderbird) `1:52.9.1-1~deb9u1` - mail/news client with RSS, chat and integrated spam filter support
+* [thunderbird-l10n-fr](https://packages.debian.org/stretch/thunderbird-l10n-fr) `1:52.9.1-1~deb9u1` - French language package for Thunderbird
 
 ### Related packages
 

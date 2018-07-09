@@ -35,6 +35,7 @@ Some extra packages are suggested to use increased functionality:
 
  * [empathy](https://packages.debian.org/stretch/empathy) GNOME multi-protocol chat and call client
  * [finch](https://packages.debian.org/stretch/finch) text-based multi-protocol instant messaging client
+ * [telegram-desktop](https://packages.debian.org/stretch/telegram-desktop) official telegram messaging app
  * [gajim](https://packages.debian.org/stretch/gajim) GTK+-based Jabber client
  * [mcabber](https://packages.debian.org/stretch/mcabber) small Jabber (XMPP) console client
  * [smuxi](https://packages.debian.org/stretch/smuxi) graphical IRC client

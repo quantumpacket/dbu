@@ -8,17 +8,17 @@
 
 ### Installed packages
 
-* [linux-headers-amd64](https://packages.debian.org/stretch/linux-headers-amd64) `4.16+93~bpo9+1` - Header files for Linux amd64 configuration (meta-package)
+* [linux-headers-amd64](https://packages.debian.org/stretch/linux-headers-amd64) `4.17+97~bpo9+1` - Header files for Linux amd64 configuration (meta-package)
 * [module-assistant](https://packages.debian.org/stretch/module-assistant) `0.11.9` - tool to make module package creation easier
 * [dkms](https://packages.debian.org/stretch/dkms) `2.3-2` - Dynamic Kernel Module Support Framework
 * [build-essential](https://packages.debian.org/stretch/build-essential) `12.3` - Informational list of build-essential packages
-* [systemd](https://packages.debian.org/stretch/systemd) `232-25+deb9u3` - system and service manager
+* [systemd](https://packages.debian.org/stretch/systemd) `232-25+deb9u4` - system and service manager
 * [grub2](https://packages.debian.org/stretch/grub2) `2.02~beta3-5` - GRand Unified Bootloader, version 2 (dummy package)
 * [os-prober](https://packages.debian.org/stretch/os-prober) `1.76~deb9u1` - utility to detect other OSes on a set of drives
 * [initramfs-tools](https://packages.debian.org/stretch/initramfs-tools) `0.130` - generic modular initramfs generator (automation)
 * [console-setup](https://packages.debian.org/stretch/console-setup) `1.164` - console font and keymap setup program
 * [user-setup](https://packages.debian.org/stretch/user-setup) `1.67` - Set up initial user and password
-* [libpam-systemd](https://packages.debian.org/stretch/libpam-systemd) `232-25+deb9u3` - system and service manager - PAM module
+* [libpam-systemd](https://packages.debian.org/stretch/libpam-systemd) `232-25+deb9u4` - system and service manager - PAM module
 * [consolekit](https://packages.debian.org/stretch/consolekit) `0.4.6-6` - framework for defining and tracking users, sessions and seats
 * [libpam-ck-connector](https://packages.debian.org/stretch/libpam-ck-connector) `0.4.6-6` - ConsoleKit PAM module
 * [sudo](https://packages.debian.org/stretch/sudo) `1.8.19p1-2.1` - Provide limited super user privileges to specific users
@@ -34,6 +34,7 @@
 * [apparmor-profiles](https://packages.debian.org/stretch/apparmor-profiles) `2.11.0-3+deb9u2` - profiles for AppArmor Security policies
 * [apparmor-profiles-extra](https://packages.debian.org/stretch/apparmor-profiles-extra) `1.11` - Extra profiles for AppArmor Security policies
 * [apparmor-utils](https://packages.debian.org/stretch/apparmor-utils) `2.11.0-3+deb9u2` - utilities for controlling AppArmor
+* [libpam-tmpdir](https://packages.debian.org/stretch/libpam-tmpdir) `0.09+b2` - automatic per-user temporary directories
 
 ### Related packages
 

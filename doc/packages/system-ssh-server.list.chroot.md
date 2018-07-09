@@ -34,7 +34,7 @@ purposes.
 
 ### Installed packages
 
-* [openssh-server](https://packages.debian.org/stretch/openssh-server) `1:7.4p1-10+deb9u3` - secure shell (SSH) server, for secure access from remote machines
+* [openssh-server](https://packages.debian.org/stretch/openssh-server) `1:7.4p1-10+deb9u4` - secure shell (SSH) server, for secure access from remote machines
 
 ### Related packages
 

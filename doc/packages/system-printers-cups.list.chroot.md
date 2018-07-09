@@ -22,8 +22,8 @@ administration tool, while being integrated to the desktop.
 
 ### Installed packages
 
-* [cups](https://packages.debian.org/stretch/cups) `2.2.1-8+deb9u1` - Common UNIX Printing System(tm) - PPD/driver support, web interface
-* [cups-client](https://packages.debian.org/stretch/cups-client) `2.2.1-8+deb9u1` - Common UNIX Printing System(tm) - client programs (SysV)
+* [cups](https://packages.debian.org/stretch/cups) `2.2.1-8+deb9u2` - Common UNIX Printing System(tm) - PPD/driver support, web interface
+* [cups-client](https://packages.debian.org/stretch/cups-client) `2.2.1-8+deb9u2` - Common UNIX Printing System(tm) - client programs (SysV)
 * [gutenprint-locales](https://packages.debian.org/stretch/gutenprint-locales) `5.2.11-1` - locale data files for Gutenprint
 * [cups-pdf](https://packages.debian.org/stretch/cups-pdf) `2.6.1-22` - PDF writer backend for CUPS (dummy transitional package)
 * [cups-pk-helper](https://packages.debian.org/stretch/cups-pk-helper) `0.2.6-1+b1` - PolicyKit helper to configure cups with fine-grained privileges

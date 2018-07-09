@@ -63,6 +63,7 @@ some of the most common command line network tools including:
  * [skipfish](https://packages.debian.org/stretch/skipfish) fully automated, active web application security reconnaissance tool
  * [whatweb](https://packages.debian.org/stretch/whatweb) Next generation web scanner
  * [knockpy](https://packages.debian.org/stretch/knockpy) Python tool designed to enumerate subdomains on a target domain
+ * [spectre-meltdown-checker](https://packages.debian.org/stretch/spectre-meltdown-checker) Spectre & Meltdown vulnerability/mitigation checker
  * [ndiff](https://packages.debian.org/stretch/ndiff) The Network Mapper - result compare utility
  * [zenmap](https://packages.debian.org/stretch/zenmap) The Network Mapper Front End
  * [masscan](https://packages.debian.org/stretch/masscan) TCP port scanner

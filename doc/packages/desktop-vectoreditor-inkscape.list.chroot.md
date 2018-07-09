@@ -48,4 +48,4 @@ Between the suggested packages:
 
  * [dia](https://packages.debian.org/stretch/dia) Diagram editor
  * [birdfont](https://packages.debian.org/stretch/birdfont) font editor that lets you create outline vector graphics and export fonts
- * [python-uniconvertor](https://packages.debian.org/stretch/python-uniconvertor) Universal vector graphics translator
+ * [python-uniconvertor](https://packages.debian.org/stretch/python-uniconvertor) 

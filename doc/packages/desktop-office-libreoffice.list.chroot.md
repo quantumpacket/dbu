@@ -84,46 +84,6 @@ packages:
    media backend
  * libpaper-utils: papersize detection support via paperconf
  * bluez: Bluetooth support for Impress (slideshow remote control
-LibreOffice is a full-featured office productivity suite that provides
-a near drop-in replacement for Microsoft(R) Office.
-
-This metapackage installs all components of libreoffice:
- * libreoffice-writer: Word processor
- * libreoffice-calc: Spreadsheet
- * libreoffice-impress: Presentation
- * libreoffice-draw: Drawing
- * libreoffice-base: Database
- * libreoffice-math: Equation editor
-It also recommends additional packages (e.g. fonts) in order to match an
-upstream LibreOffice install as closely as possible.
-
-You can extend the functionality of LibreOffice by installing these
-packages:
- * hunspell-*/myspell-*: Hunspell/Myspell dictionaries
-   for use with LibreOffice
- * libreoffice-l10n-*: UI interface translation
- * libreoffice-help-*: User help
- * mythes-*: Thesauri for the use with LibreOffice
- * hyphen-*: Hyphenation patterns for LibreOffice
- * libreoffice-gtk(2|3): Gtk UI Plugin, GNOME File Picker support
- * libreoffice-gnome: GIO backend
- * unixodbc: ODBC database support
- * cups-bsd: Allows LibreOffice to detect your CUPS printer queues
-   automatically
- * libsane: Use your sane-supported scanner with LibreOffice
- * libxrender1: Speed up display by using Xrender library
- * libgl1: OpenGL support
- * openclipart-libreoffice: Open Clip Art Gallery with LibreOffice index
-   files
- * iceweasel | firefox | icedove | thunderbird | iceape-browser | mozilla-browser:
-   Mozilla profile with Certificates needed for XML Security...
- * openjdk-6-jre | gcj-jre | java5-runtime:
-   Java Runtime Environment for use with LibreOffice
- * pstoedit / imagemagick: helper tools for EPS thumbnails
- * gstreamer0.10-plugins-*: GStreamer plugins for use with LibreOffices
-   media backend
- * libpaper-utils: papersize detection support via paperconf
- * bluez: Bluetooth support for Impress (slideshow remote control
 
 ```
 

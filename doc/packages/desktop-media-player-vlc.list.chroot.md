@@ -42,12 +42,10 @@ installing additional plugins:
  * vlc-plugin-jack
  * vlc-plugin-notify
  * vlc-plugin-samba
- * vlc-plugin-sdl
  * vlc-plugin-skins2
  * vlc-plugin-svg
  * vlc-plugin-video-splitter
  * vlc-plugin-visualization
- * vlc-plugin-zvbi
 
 ```
 
@@ -59,19 +57,19 @@ installing additional plugins:
 
 ### Installed packages
 
-* [vlc](https://packages.debian.org/stretch/vlc) `3.0.2-0+deb9u1` - multimedia player and streamer
+* [vlc](https://packages.debian.org/stretch/vlc) `3.0.3-1-0+deb9u1` - multimedia player and streamer
 * [libdvdread4](https://packages.debian.org/stretch/libdvdread4) `5.0.3-2` - library for reading DVDs
-* [vlc-plugin-notify](https://packages.debian.org/stretch/vlc-plugin-notify) `3.0.2-0+deb9u1` - LibNotify plugin for VLC
+* [vlc-plugin-notify](https://packages.debian.org/stretch/vlc-plugin-notify) `3.0.3-1-0+deb9u1` - LibNotify plugin for VLC
 * [vlc-plugin-vlsub](https://packages.debian.org/stretch/vlc-plugin-vlsub) `0.10.2-2` - VLC extension to download subtitles from opensubtitles.org
-* [vlc-plugin-jack](https://packages.debian.org/stretch/vlc-plugin-jack) `3.0.2-0+deb9u1` - Jack audio plugins for VLC
-* [vlc-plugin-samba](https://packages.debian.org/stretch/vlc-plugin-samba) `3.0.2-0+deb9u1` - Samba plugin for VLC
-* [vlc-plugin-skins2](https://packages.debian.org/stretch/vlc-plugin-skins2) `3.0.2-0+deb9u1` - multimedia player and streamer (Skins2 plugin)
-* [vlc-plugin-video-splitter](https://packages.debian.org/stretch/vlc-plugin-video-splitter) `3.0.2-0+deb9u1` - multimedia player and streamer (video splitter plugins)
-* [vlc-plugin-visualization](https://packages.debian.org/stretch/vlc-plugin-visualization) `3.0.2-0+deb9u1` - multimedia player and streamer (visualization plugins)
-* [vlc-plugin-video-output](https://packages.debian.org/stretch/vlc-plugin-video-output) `3.0.2-0+deb9u1` - multimedia player and streamer (video output plugins)
-* [vlc-plugin-base](https://packages.debian.org/stretch/vlc-plugin-base) `3.0.2-0+deb9u1` - multimedia player and streamer (base plugins)
-* [vlc-plugin-qt](https://packages.debian.org/stretch/vlc-plugin-qt) `3.0.2-0+deb9u1` - multimedia player and streamer (Qt plugin)
-* [vlc-nox](https://packages.debian.org/stretch/vlc-nox) `3.0.2-0+deb9u1` - transitional dummy package
+* [vlc-plugin-jack](https://packages.debian.org/stretch/vlc-plugin-jack) `3.0.3-1-0+deb9u1` - Jack audio plugins for VLC
+* [vlc-plugin-samba](https://packages.debian.org/stretch/vlc-plugin-samba) `3.0.3-1-0+deb9u1` - Samba plugin for VLC
+* [vlc-plugin-skins2](https://packages.debian.org/stretch/vlc-plugin-skins2) `3.0.3-1-0+deb9u1` - multimedia player and streamer (Skins2 plugin)
+* [vlc-plugin-video-splitter](https://packages.debian.org/stretch/vlc-plugin-video-splitter) `3.0.3-1-0+deb9u1` - multimedia player and streamer (video splitter plugins)
+* [vlc-plugin-visualization](https://packages.debian.org/stretch/vlc-plugin-visualization) `3.0.3-1-0+deb9u1` - multimedia player and streamer (visualization plugins)
+* [vlc-plugin-video-output](https://packages.debian.org/stretch/vlc-plugin-video-output) `3.0.3-1-0+deb9u1` - multimedia player and streamer (video output plugins)
+* [vlc-plugin-base](https://packages.debian.org/stretch/vlc-plugin-base) `3.0.3-1-0+deb9u1` - multimedia player and streamer (base plugins)
+* [vlc-plugin-qt](https://packages.debian.org/stretch/vlc-plugin-qt) `3.0.3-1-0+deb9u1` - multimedia player and streamer (Qt plugin)
+* [vlc-nox](https://packages.debian.org/stretch/vlc-nox) `3.0.3-1-0+deb9u1` - transitional dummy package
 * [libdvd-pkg](https://packages.debian.org/stretch/libdvd-pkg) `1.4.0-1-2` - DVD-Video playing library - installer
 
 ### Related packages

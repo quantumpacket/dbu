@@ -24,7 +24,7 @@ work and the interface is well tested.
 ### Installed packages
 
 * [simple-scan](https://packages.debian.org/stretch/simple-scan) `3.23.2-1` - Simple Scanning Utility
-* [imagemagick](https://packages.debian.org/stretch/imagemagick) `8:6.9.7.4+dfsg-11+deb9u4` - image manipulation programs -- binaries
+* [imagemagick](https://packages.debian.org/stretch/imagemagick) `8:6.9.7.4+dfsg-11+deb9u5` - image manipulation programs -- binaries
 * [sane-utils](https://packages.debian.org/stretch/sane-utils) `1.0.25-4.1` - API library for scanners -- utilities
 * [libsane-extras](https://packages.debian.org/stretch/libsane-extras) `1.0.22.4` - API library for scanners -- extra backends
 

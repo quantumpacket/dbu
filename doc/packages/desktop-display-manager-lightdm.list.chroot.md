@@ -34,3 +34,4 @@ Additional software can be useful along with LightDM:
 
  * [slim](https://packages.debian.org/stretch/slim) desktop-independent graphical login manager for X11
  * [gdm3](https://packages.debian.org/stretch/gdm3) GNOME Display Manager
+ * [arctica-greeter](https://packages.debian.org/stretch/arctica-greeter) LightDM Arctica Greeter

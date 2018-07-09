@@ -39,7 +39,7 @@ Besides these basic functions the following features are provided:
 * [aptitude-doc-fr](https://packages.debian.org/stretch/aptitude-doc-fr) `0.8.7-1` - French manual for aptitude, a terminal-based package manager
 * [debsecan](https://packages.debian.org/stretch/debsecan) `0.4.19~deb9u1` - Debian Security Analyzer
 * [needrestart](https://packages.debian.org/stretch/needrestart) `2.11-3+deb9u1` - check which daemons need to be restarted after library upgrades
-* [reportbug](https://packages.debian.org/stretch/reportbug) `7.1.7+deb9u1` - reports bugs in the Debian distribution
+* [reportbug](https://packages.debian.org/stretch/reportbug) `7.1.7+deb9u2` - reports bugs in the Debian distribution
 * [vrms](https://packages.debian.org/stretch/vrms) `1.17` - virtual Richard M. Stallman
 * [apt-listchanges](https://packages.debian.org/stretch/apt-listchanges) `3.10` - package change history notification tool
 * [apt-transport-https](https://packages.debian.org/stretch/apt-transport-https) `1.4.8` - https download transport for APT

@@ -29,9 +29,16 @@ NOTE: the GUI is still considered experimental.
 * [gir1.2-spice-client-gtk-3.0](https://packages.debian.org/stretch/gir1.2-spice-client-gtk-3.0) `0.33-3.3` - GTK3 widget for SPICE clients (GObject-Introspection)
 * [ebtables](https://packages.debian.org/stretch/ebtables) `2.0.10.4-3.5+b1` - Ethernet bridge frame table administration
 * [dnsmasq-base](https://packages.debian.org/stretch/dnsmasq-base) `2.76-5+deb9u1` - Small caching DNS proxy and DHCP/TFTP server
+* [libvirt-daemon-system](https://packages.debian.org/stretch/libvirt-daemon-system) `3.0.0-4+deb9u3` - Libvirt daemon configuration files
+* [qemu-kvm](https://packages.debian.org/stretch/qemu-kvm) `1:2.8+dfsg-6+deb9u4` - QEMU Full virtualization on x86 hardware
+* [qemu-utils](https://packages.debian.org/stretch/qemu-utils) `1:2.8+dfsg-6+deb9u4` - QEMU utilities
+* [virt-top](https://packages.debian.org/stretch/virt-top) `1.0.8-1` - show stats of virtualized domains
+* [netcat-openbsd](https://packages.debian.org/stretch/netcat-openbsd) `1.130-3` - TCP/IP swiss army knife
 
 ### Related packages
 
+ * [virt-what](https://packages.debian.org/stretch/virt-what) detect if we are running in a virtual machine
+ * [libguestfs-tools](https://packages.debian.org/stretch/libguestfs-tools) guest disk image management system - tools
  * [virtualbox](https://packages.debian.org/stretch/virtualbox) x86 virtualization solution - base binaries
  * [virtualbox-qt](https://packages.debian.org/stretch/virtualbox-qt) x86 virtualization solution - Qt based user interface
  * [virtualbox-dkms](https://packages.debian.org/stretch/virtualbox-dkms) x86 virtualization solution - kernel module sources for dkms

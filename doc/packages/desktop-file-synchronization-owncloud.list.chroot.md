@@ -41,9 +41,9 @@ synchronizing with cloud storage provided by ownCloud.
  * [nautilus-dropbox](https://packages.debian.org/stretch/nautilus-dropbox) Dropbox integration for Nautilus
  * [syncthing](https://packages.debian.org/stretch/syncthing) decentralized file synchronization
  * [sparkleshare](https://packages.debian.org/stretch/sparkleshare) distributed collaboration and sharing tool
- * [seafile-cli](https://packages.debian.org/stretch/seafile-cli) online file storage and collaboration tool (client cli)
- * [seafile-daemon](https://packages.debian.org/stretch/seafile-daemon) online file storage and collaboration tool (client daemon)
- * [seafile-gui](https://packages.debian.org/stretch/seafile-gui) Seafile desktop client
+ * [seafile-cli](https://packages.debian.org/stretch/seafile-cli) Client CLI for the Seafile Client
+ * [seafile-daemon](https://packages.debian.org/stretch/seafile-daemon) Client daemon for the Seafile Client
+ * [seafile-gui](https://packages.debian.org/stretch/seafile-gui) Seafile Desktop Client
  * [grsync](https://packages.debian.org/stretch/grsync) GTK+ frontend for rsync
  * [filezilla](https://packages.debian.org/stretch/filezilla) Full-featured graphical FTP/FTPS/SFTP client
  * [gftp](https://packages.debian.org/stretch/gftp) X/GTK+ and console FTP client (metapackage)

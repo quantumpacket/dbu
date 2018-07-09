@@ -28,13 +28,13 @@ table-of-contents bookmarks.
  * [mupdf](https://packages.debian.org/stretch/mupdf) lightweight PDF viewer
  * [apvlv](https://packages.debian.org/stretch/apvlv) PDF viewer with Vim-like behaviour
  * [xpdf](https://packages.debian.org/stretch/xpdf) Portable Document Format (PDF) reader
- * [calibre](https://packages.debian.org/stretch/calibre) e-book converter and library management
+ * [calibre](https://packages.debian.org/stretch/calibre) powerful and easy to use e-book manager
  * [zathura](https://packages.debian.org/stretch/zathura) document viewer with a minimalistic interface
  * [fbreader](https://packages.debian.org/stretch/fbreader) e-book reader
  * [evince-gtk](https://packages.debian.org/stretch/evince-gtk) dummy package for the transition from evince-gtk to evince
  * [yelp](https://packages.debian.org/stretch/yelp) Help browser for GNOME
  * [xchm](https://packages.debian.org/stretch/xchm) Compiled HTML Help (CHM) file viewer for X
- * [calibre](https://packages.debian.org/stretch/calibre) e-book converter and library management
+ * [calibre](https://packages.debian.org/stretch/calibre) powerful and easy to use e-book manager
  * [griffith](https://packages.debian.org/stretch/griffith) film collection manager
  * [gcstar](https://packages.debian.org/stretch/gcstar) Manage your collections of movies, games, books, music and more
  * [cdcat](https://packages.debian.org/stretch/cdcat) media catalog program

@@ -1,31 +1,29 @@
-# File search utility
+# File search utilities
 
-__GNOME tool to search files__
-
-```
-
-This application can search for files in a given directory, matching
-their names or contents.
-
-It doesn't require any indexation tool, and as such is lightweight but
-slow.
+__File searching tool which is configurable via the command line__
 
 ```
 
-[![](https://screenshots.debian.net/thumbnail-with-version/gnome-search-tool/9001)](https://screenshots.debian.net/screenshot-with-version/gnome-search-tool/9001)
+Catfish is a handy file searching tool for Linux and UNIX.
+The interface is intentionally lightweight and simple, using only Gtk+3.
+You can configure it to your needs by using several command line options.
+
+```
+
+[![](https://screenshots.debian.net/thumbnail-with-version/catfish/9001)](https://screenshots.debian.net/screenshot-with-version/catfish/9001)
 
 
 
-**[Homepage](https://wiki.gnome.org/Apps/Attic/GnomeUtils)**
+**[Homepage](https://launchpad.net/catfish-search)**
 
 ### Installed packages
 
-* [gnome-search-tool](https://packages.debian.org/stretch/gnome-search-tool) `3.6.0-2+b1` - GNOME tool to search files
+* [catfish](https://packages.debian.org/stretch/catfish) `1.2.2-1` - File searching tool which is configurable via the command line
 * [mlocate](https://packages.debian.org/stretch/mlocate) `0.26-2` - quickly find files on the filesystem based on their name
 
 ### Related packages
 
- * [catfish](https://packages.debian.org/stretch/catfish) File searching tool which is configurable via the command line
+ * [gnome-search-tool](https://packages.debian.org/stretch/gnome-search-tool) GNOME tool to search files
  * [recoll](https://packages.debian.org/stretch/recoll) Personal full text search package with a Qt GUI
  * [tracker](https://packages.debian.org/stretch/tracker) metadata database, indexer and search tool
  * [tracker-miner-fs](https://packages.debian.org/stretch/tracker-miner-fs) metadata database, indexer and search tool - filesystem indexer

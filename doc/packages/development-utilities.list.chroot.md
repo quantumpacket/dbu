@@ -22,7 +22,7 @@
 * [git-mediawiki](https://packages.debian.org/stretch/git-mediawiki) `1:2.11.0-3+deb9u3` - fast, scalable, distributed revision control system (MediaWiki remote helper)
 * [hg-fast-export](https://packages.debian.org/stretch/hg-fast-export) `20140308-1` - mercurial to git converter using git-fast-import
 * [mercurial](https://packages.debian.org/stretch/mercurial) `4.0-1+deb9u1` - easy-to-use, scalable distributed version control system
-* [subversion](https://packages.debian.org/stretch/subversion) `1.9.5-1+deb9u1` - Advanced version control system
+* [subversion](https://packages.debian.org/stretch/subversion) `1.9.5-1+deb9u2` - Advanced version control system
 * [tig](https://packages.debian.org/stretch/tig) `2.2-1+b2` - ncurses-based text-mode interface for Git
 * [github-backup](https://packages.debian.org/stretch/github-backup) `1.20160522-2` - backs up data from GitHub
 * [ghi](https://packages.debian.org/stretch/ghi) `1.2.0-1` - GitHub issue tracker command line interface (CLI)
@@ -33,9 +33,9 @@
 * [xmlstarlet](https://packages.debian.org/stretch/xmlstarlet) `1.6.1-2` - command line XML toolkit
 * [aha](https://packages.debian.org/stretch/aha) `0.4.10.3-1` - ANSI color to HTML converter
 * [groff](https://packages.debian.org/stretch/groff) `1.22.3-9` - GNU troff text-formatting system
-* [debhelper](https://packages.debian.org/stretch/debhelper) `11.3.2~bpo9+1` - helper programs for debian/rules
+* [debhelper](https://packages.debian.org/stretch/debhelper) `11~bpo9+1` - helper programs for debian/rules
 * [autoconf](https://packages.debian.org/stretch/autoconf) `2.69-10` - automatic configure script builder
-* [devscripts](https://packages.debian.org/stretch/devscripts) `2.17.6+deb9u1` - scripts to make the life of a Debian Package maintainer easier
+* [devscripts](https://packages.debian.org/stretch/devscripts) `2.17.6+deb9u2` - scripts to make the life of a Debian Package maintainer easier
 * [dh-make](https://packages.debian.org/stretch/dh-make) `2.201608` - tool that converts source archives into Debian package source
 * [equivs](https://packages.debian.org/stretch/equivs) `2.0.9+nmu1` - Circumvent Debian package dependencies
 * [build-essential](https://packages.debian.org/stretch/build-essential) `12.3` - Informational list of build-essential packages
@@ -55,7 +55,6 @@
 * [python3-wheel](https://packages.debian.org/stretch/python3-wheel) `0.29.0-2` - built-package format for Python
 * [python3-pip](https://packages.debian.org/stretch/python3-pip) `9.0.1-2` - Python package installer
 * [python3-venv](https://packages.debian.org/stretch/python3-venv) `3.5.3-1` - pyvenv-3 binary for python3 (default python3 version)
-* [pypi2deb](https://packages.debian.org/stretch/pypi2deb) `1.20160809` - PyPI to Debian converter
 * [virtualenv](https://packages.debian.org/stretch/virtualenv) `15.1.0+ds-1` - Python virtual environment creator
 * [live-build](https://packages.debian.org/stretch/live-build) `1:20170213` - Live System Build Components
 * [debootstrap](https://packages.debian.org/stretch/debootstrap) `1.0.89` - Bootstrap a basic Debian system
@@ -66,9 +65,8 @@
 * [sqlite3](https://packages.debian.org/stretch/sqlite3) `3.16.2-5+deb9u1` - Command line interface for SQLite 3
 * [webcheck](https://packages.debian.org/stretch/webcheck) `1.10.4-1` - website link and structure checker
 * [vera](https://packages.debian.org/stretch/vera) `1.23-1` - Dictionary of computer related acronyms -- info format
-* [ranger](https://packages.debian.org/stretch/ranger) `1.7.1-1` - File manager with an ncurses frontend written in Python
 * [gcolor2](https://packages.debian.org/stretch/gcolor2) `0.4-2.2+b1` - Simple GTK2 color selector and picker
-* [imagemagick](https://packages.debian.org/stretch/imagemagick) `8:6.9.7.4+dfsg-11+deb9u4` - image manipulation programs -- binaries
+* [imagemagick](https://packages.debian.org/stretch/imagemagick) `8:6.9.7.4+dfsg-11+deb9u5` - image manipulation programs -- binaries
 * [optipng](https://packages.debian.org/stretch/optipng) `0.7.6-1+deb9u1` - advanced PNG (Portable Network Graphics) optimizer
 * [advancecomp](https://packages.debian.org/stretch/advancecomp) `1.20-1` - collection of recompression utilities
 * [jpegoptim](https://packages.debian.org/stretch/jpegoptim) `1.4.4-1+b1` - utility to optimize jpeg files
@@ -99,6 +97,7 @@
  * [txt2tags](https://packages.debian.org/stretch/txt2tags) conversion tool to generating several file formats
  * [mkdocs](https://packages.debian.org/stretch/mkdocs) Static site generator geared towards building project documentation
  * [python-praw](https://packages.debian.org/stretch/python-praw) Python Reddit API Wrapper (Python 2 version)
+ * [pypi2deb](https://packages.debian.org/stretch/pypi2deb) PyPI to Debian converter
  * [live-config-doc](https://packages.debian.org/stretch/live-config-doc) Live System Configuration Components (documentation)
  * [live-manual-pdf](https://packages.debian.org/stretch/live-manual-pdf) Live Systems Documentation (pdf)
  * [live-manual-html](https://packages.debian.org/stretch/live-manual-html) Live Systems Documentation (html)
@@ -115,9 +114,11 @@
  * [live-task-mate](https://packages.debian.org/stretch/live-task-mate) Live environment support for Mate
  * [live-task-recommended](https://packages.debian.org/stretch/live-task-recommended) Live recommended environment support
  * [live-task-xfce](https://packages.debian.org/stretch/live-task-xfce) Live environment support for Xfce
+ * [php-cli](https://packages.debian.org/stretch/php-cli) command-line interpreter for the PHP scripting language (default)
+ * [nodejs](https://packages.debian.org/stretch/nodejs) evented I/O for V8 javascript
  * [snapd](https://packages.debian.org/stretch/snapd) Tool to interact with Ubuntu Core Snappy.
  * [fossil](https://packages.debian.org/stretch/fossil) DSCM with built-in wiki, http interface and server, tickets database
- * [aptly](https://packages.debian.org/stretch/aptly) Swiss army knife for Debian repository management
+ * [aptly](https://packages.debian.org/stretch/aptly) Swiss army knife for Debian repository management - main package
  * [apt-listbugs](https://packages.debian.org/stretch/apt-listbugs) tool which lists critical bugs before each APT installation
  * [vagrant](https://packages.debian.org/stretch/vagrant) Tool for building and distributing virtualized development environments
  * [hexcurse](https://packages.debian.org/stretch/hexcurse) Ncurses-based hex editor with many features

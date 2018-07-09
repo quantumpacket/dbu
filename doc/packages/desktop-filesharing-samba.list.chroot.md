@@ -15,9 +15,9 @@ Microsoft Windows, OS X, and other Unix systems.
 
 ### Installed packages
 
-* [samba](https://packages.debian.org/stretch/samba) `2:4.5.12+dfsg-2+deb9u2` - SMB/CIFS file, print, and login server for Unix
-* [samba-vfs-modules](https://packages.debian.org/stretch/samba-vfs-modules) `2:4.5.12+dfsg-2+deb9u2` - Samba Virtual FileSystem plugins
-* [smbclient](https://packages.debian.org/stretch/smbclient) `2:4.5.12+dfsg-2+deb9u2` - command-line SMB/CIFS clients for Unix
+* [samba](https://packages.debian.org/stretch/samba) `2:4.5.12+dfsg-2+deb9u3` - SMB/CIFS file, print, and login server for Unix
+* [samba-vfs-modules](https://packages.debian.org/stretch/samba-vfs-modules) `2:4.5.12+dfsg-2+deb9u3` - Samba Virtual FileSystem plugins
+* [smbclient](https://packages.debian.org/stretch/smbclient) `2:4.5.12+dfsg-2+deb9u3` - command-line SMB/CIFS clients for Unix
 
 ### Related packages
 

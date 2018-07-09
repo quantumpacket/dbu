@@ -75,10 +75,10 @@ remove this package.
 * [seahorse-daemon](https://packages.debian.org/stretch/seahorse-daemon) `3.12.2-3` - Seahorse pass phrase caching agent
 * [python-gnomekeyring](https://packages.debian.org/stretch/python-gnomekeyring) `2.32.0+dfsg-3` - Python bindings for the GNOME keyring library
 * [gnome-keyring](https://packages.debian.org/stretch/gnome-keyring) `3.20.0-3` - GNOME keyring services (daemon and tools)
-* [ssh-askpass-gnome](https://packages.debian.org/stretch/ssh-askpass-gnome) `1:7.4p1-10+deb9u3` - interactive X program to prompt users for a passphrase for ssh-add
+* [ssh-askpass-gnome](https://packages.debian.org/stretch/ssh-askpass-gnome) `1:7.4p1-10+deb9u4` - interactive X program to prompt users for a passphrase for ssh-add
 * [libpam-gnome-keyring](https://packages.debian.org/stretch/libpam-gnome-keyring) `3.20.0-3` - PAM module to unlock the GNOME keyring upon login
-* [gnupg](https://packages.debian.org/stretch/gnupg) `2.1.18-8~deb9u1` - GNU privacy guard - a free PGP replacement
-* [gnupg2](https://packages.debian.org/stretch/gnupg2) `2.1.18-8~deb9u1` - GNU privacy guard - a free PGP replacement (dummy transitional package)
+* [gnupg](https://packages.debian.org/stretch/gnupg) `2.1.18-8~deb9u2` - GNU privacy guard - a free PGP replacement
+* [gnupg2](https://packages.debian.org/stretch/gnupg2) `2.1.18-8~deb9u2` - GNU privacy guard - a free PGP replacement (dummy transitional package)
 
 ### Related packages
 
@@ -90,6 +90,9 @@ remove this package.
  * [zeitgeist](https://packages.debian.org/stretch/zeitgeist) event logging framework
  * [zeitgeist-datahub](https://packages.debian.org/stretch/zeitgeist-datahub) event logging framework - passive logging daemon
  * [activity-log-manager](https://packages.debian.org/stretch/activity-log-manager) blacklist configuration user interface for Zeitgeist
+ * [screenruler](https://packages.debian.org/stretch/screenruler) measure objects on screen with a variety of metrics
+ * [font-manager](https://packages.debian.org/stretch/font-manager) font management application for the GNOME desktop
+ * [papirus-icon-theme](https://packages.debian.org/stretch/papirus-icon-theme) Papirus open source icon theme for Linux
  * [onboard](https://packages.debian.org/stretch/onboard) Simple On-screen Keyboard
  * [onboard-data](https://packages.debian.org/stretch/onboard-data) Language model files for the word suggestion feature of Onboard
  * [cellwriter](https://packages.debian.org/stretch/cellwriter) grid-entry handwriting input panel

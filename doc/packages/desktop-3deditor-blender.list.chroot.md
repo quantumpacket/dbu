@@ -12,6 +12,14 @@ import/export features for popular file formats like 3D Studio and Wavefront
 Obj are implemented as scripts by the community. Stills, animations, models
 for games or other third party engines and interactive content in the form of
 a standalone binary are common products of Blender use.
+Blender is an integrated 3d suite for modelling, animation, rendering,
+post-production, interactive creation and playback (games). Blender has its
+own particular user interface, which is implemented entirely in OpenGL and
+designed with speed in mind. Python bindings are available for scripting;
+import/export features for popular file formats like 3D Studio and Wavefront
+Obj are implemented as scripts by the community. Stills, animations, models
+for games or other third party engines and interactive content in the form of
+a standalone binary are common products of Blender use.
 
 ```
 
@@ -23,7 +31,7 @@ a standalone binary are common products of Blender use.
 
 ### Installed packages
 
-* [blender](https://packages.debian.org/stretch/blender) `2.78.a+dfsg0-4` - Very fast and versatile 3D modeller/renderer
+* [blender](https://packages.debian.org/stretch/blender) `2.79.b+dfsg0-1~deb9u1` - Very fast and versatile 3D modeller/renderer
 
 ### Related packages
 
