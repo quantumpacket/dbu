@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-all: install_buildenv tests update_deps install_firefox_addons build
+all: install_buildenv tests clean update_deps install_firefox_addons build
 
 update_deps: download_firefox_addons download_binaries download_dotfiles
 
@@ -16,7 +16,7 @@ install_buildenv:
 
 test_shellcheck:
 	#Check scripts syntax
-	@shellcheck --exclude=SC2016,SC2086,SC1001 scripts/*.sh
+	shellcheck --exclude=SC2016,SC2086,SC1001 scripts/*.sh
 
 test_doc_emptylinks:
 	#Empty links in documentation:
@@ -30,6 +30,9 @@ test_kvm:
 documentation:
 	# Generate package documentation pages and index
 	./scripts/doc-generator.sh
+
+clean:
+	git clean -df config/includes.chroot/
 
 build:
 	# Build the live system/ISO image
@@ -54,6 +57,17 @@ sign_checksums:
 	cd iso; \
 	gpg --detach-sign --armor SHA512SUMS; \
 	mv SHA512SUMS.asc SHA512SUMS.sign
+
+#########################################
+# Functions
+
+# A function to git clone/pull a repository in a target directory
+# Usage: $(call git_download,http://url,path/to/target)
+define git_download
+	@if [ ! -d $(2) ]; then \
+	git clone --depth=1 $(1) $(2); \
+	else cd $(2) && git pull && cd ..; fi
+endef
 
 #########################################
 # Download Firefox addons
@@ -102,54 +116,54 @@ install_binaries:
 ##################################################################
 
 # Download dotfiles/themes/...
+DOTFILES_CACHE_DIR := "cache/downloads/dotfiles"
 download_dotfiles:
+	if [ ! -d $(DOTFILES_CACHE_DIR) ]; then mkdir -p $(DOTFILES_CACHE_DIR); fi
+
 	# https://github.com/serialhex/nano-highlight
-	-rm -rf config/includes.chroot/etc/skel/.nano
-		git clone --depth=1 https://github.com/serialhex/nano-highlight config/includes.chroot/etc/skel/.nano
-		rm -rf config/includes.chroot/etc/skel/.nano/.git
+	$(call git_download,https://github.com/serialhex/nano-highlight,$(DOTFILES_CACHE_DIR)/nano-highlight)
+	if [ -d config/includes.chroot/etc/skel/.nano ] ; then rm -rf config/includes.chroot/etc/skel/.nano; fi
+	cp -r $(DOTFILES_CACHE_DIR)/nano-highlight config/includes.chroot/etc/skel/.nano
+	rm -rf config/includes.chroot/etc/skel/.nano/.git
 	
 	# https://github.com/nodiscc/fonts
-	-rm -rf config/includes.chroot/usr/share/fonts
-		git clone --depth=1 https://github.com/nodiscc/fonts config/includes.chroot/usr/share/fonts/
-		rm -rf config/includes.chroot/usr/share/fonts/.git
+	$(call git_download,https://github.com/nodiscc/fonts,$(DOTFILES_CACHE_DIR)/fonts)
+	if [ -d config/includes.chroot/usr/share/fonts ] ; then rm -rf config/includes.chroot/usr/share/fonts; fi
+	cp -r $(DOTFILES_CACHE_DIR)/fonts config/includes.chroot/usr/share/fonts
+	rm -rf config/includes.chroot/usr/share/fonts/.git
 
-	# https://github.com/nodiscc/ohmpage (disabled)
-	#git clone --depth=1 https://github.com/nodiscc/ohmpage config/includes.chroot/usr/share/ohmpage
-		#rm -rf config/includes.chroot/usr/share/ohmpage/.git
-
-	# https://github.com/az0/cleanerml/
-	-rm -rf config/includes.chroot/usr/share/bleachbit/cleaners
-		git clone --depth=1 https://github.com/az0/cleanerml/ tmp-cleanerml
-		mkdir -p config/includes.chroot/usr/share/bleachbit/
-		mv tmp-cleanerml/release config/includes.chroot/usr/share/bleachbit/cleaners
-		rm -rf tmp-cleanerml
+	# https://github.com/az0/cleanerml
+	$(call git_download,https://github.com/az0/cleanerml,$(DOTFILES_CACHE_DIR)/cleanerml)
+	if [ -d config/includes.chroot/usr/share/bleachbit/cleaners ] ; then rm -rf config/includes.chroot/usr/share/bleachbit/cleaners; fi
+	-mkdir -p config/includes.chroot/usr/share/bleachbit/
+	cp -r $(DOTFILES_CACHE_DIR)/cleanerml/release config/includes.chroot/usr/share/bleachbit/cleanerml
 
 	# https://github.com/nodiscc/user.js
-	-rm -rf config/includes.chroot/etc/firefox-esr/firefox-esr.js
-		git clone -b dbu --depth=1 https://github.com/nodiscc/user.js tmp-userjs
-		mkdir -p config/includes.chroot/etc/firefox-esr/
-		cd tmp-userjs && make systemwide_user.js
-		cp tmp-userjs/systemwide_user.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
-		cp tmp-userjs/autoconfig.js config/includes.chroot/usr/lib/firefox-esr/defaults/pref/autoconfig.js
-		cp tmp-userjs/mozilla.cfg config/includes.chroot/usr/lib/firefox-esr/mozilla.cfg
-		rm -rf tmp-userjs
+	$(call git_download,https://github.com/nodiscc/user.js,$(DOTFILES_CACHE_DIR)/user.js)
+	-mkdir -p config/includes.chroot/etc/firefox-esr/
+	-mkdir -p config/includes.chroot/usr/lib/firefox-esr/defaults/pref/
+	-rm $(DOTFILES_CACHE_DIR)/user.js/systemwide_user.js
+	cd $(DOTFILES_CACHE_DIR)/user.js && make systemwide_user.js
+	cp $(DOTFILES_CACHE_DIR)/user.js/systemwide_user.js config/includes.chroot/etc/firefox-esr/firefox-esr.js
+	cp $(DOTFILES_CACHE_DIR)/user.js/autoconfig.js config/includes.chroot/usr/lib/firefox-esr/defaults/pref/autoconfig.js
+	cp $(DOTFILES_CACHE_DIR)/user.js/mozilla.cfg config/includes.chroot/usr/lib/firefox-esr/mozilla.cfg
 
     # icon themes
 	-mkdir -pv config/includes.chroot/usr/share/icons/	
 	# https://github.com/snwh/paper-icon-theme
-	-rm -rf config/includes.chroot/usr/share/icons/Paper*
-		git clone --depth=1 https://github.com/snwh/paper-icon-theme tmp-paper-icon-theme
-		mv tmp-paper-icon-theme/Paper tmp-paper-icon-theme/Paper-Mono-Dark config/includes.chroot/usr/share/icons/
-		rm -rf tmp-paper-icon-theme
+	$(call git_download,https://github.com/snwh/paper-icon-theme,$(DOTFILES_CACHE_DIR)/paper-icon-theme)
+	-mkdir -p config/includes.chroot/usr/share/icons/
+	cp -r $(DOTFILES_CACHE_DIR)/paper-icon-theme/Paper $(DOTFILES_CACHE_DIR)/paper-icon-theme/Paper-Mono-Dark config/includes.chroot/usr/share/icons/
 
-	# Example: add extra files to the live file system
-	# git clone --recursive https://github.com/nodiscc/toolbox config/includes.chroot/usr/share/dbu/toolbox
-	# git clone https://github.com/nodiscc/dbu config/includes.chroot/usr/share/dbu/src
+	@# Example: add extra files to the live file system
+	@# git clone --recursive https://github.com/nodiscc/toolbox config/includes.chroot/usr/share/dbu/toolbox
+	@# git clone https://github.com/nodiscc/dbu config/includes.chroot/usr/share/dbu/src
+	@# git clone https://github.com/nodiscc/ohmpage config/includes.chroot/usr/share/ohmpage
 
-	# Example: include files in the root directory of the live ISO
-	# mkdir -pv config/includes.binary/extra/
-	# cp /path/to/intro.html config/includes.binary/intro.html
+	@# Example: include files in the root directory of the live ISO
+	@# mkdir -pv config/includes.binary/extra/
+	@# cp /path/to/intro.html config/includes.binary/intro.html
 
-	# For examples of how to download/include custom packages, dotfiles, themes, libraries,
-	# check git branches extras/gtk-themes, extras/pidgin-opensteamworks, extras/webtorrent...
+	@# For examples of how to download/include custom packages, dotfiles, themes, libraries,
+	@# check git branches extras/gtk-themes, extras/pidgin-opensteamworks, extras/webtorrent...
 

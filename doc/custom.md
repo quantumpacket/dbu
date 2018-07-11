@@ -52,6 +52,8 @@ Type `make <TAB><TAB>` to see available make targets.
 See branches named `extra/...` for examples of how to include downloaded 3 party software, packages,
 libraries, configuration files... (https://github.com/nodiscc/dbu/branches)
 
+Caution: running `make all` or `make clean` will erase any files not tracked by git in `config/includes/chroot/`
+
 ##### config/includes.chroot/
 
 Files and directories placed here will be copied to the live system. This is useful if 
