@@ -18,7 +18,6 @@ Run `conky -c ~/.conky/$config.conkyrc`
  * specify colors from a common config file
  * script: detect starred/marked items in mail inbox
  * `git grep TODO`
- * Script: Display next events in thunderbird calendar or ics export
  * Script: RSS headlines
  * Import https://github.com/BunsenLabs/bunsen-conky
 

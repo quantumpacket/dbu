@@ -41,7 +41,6 @@ ${color5}MEM ${color}${memperc}% ${color5}CPU ${color}${cpu cpu0}% ${color5}T°C
 #DISK ${color}${fs_used_perc /}% ${color5}HOME ${color}${fs_used_perc /home/}% ${color}
 #${color5}BAT ${color}${battery_percent BAT0}% ${color5}UPTIME ${color}${uptime}
 ${color5}UP ${color}${upspeedf wlp3s0} ${color5}DWN ${color}${downspeedf wlp3s0}
-#TASKS ${texeci 60 ~/.conky/scripts/thunderbird-todo.sh}
 #BANK ${texeci 900 ~/.conky/scripts/bank-amount.sh}
 #TODO.TXT ${texeci 15 ~/.conky/scripts/todotxt-count.sh}
 #TT-RSS ${texeci 300 ~/.conky/scripts/tt-rss-unread.sh}
