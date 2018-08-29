@@ -11,6 +11,7 @@ libvirt-daemon-system
 qemu-kvm
 qemu-utils
 virt-top
+netcat-openbsd
 
 #Alt: virt-what
 #Alt: libguestfs-tools

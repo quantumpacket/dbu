@@ -153,8 +153,6 @@ traceroute
 #Alt: gwakeonlan
 #Alt: rclone
 #Alt: pastebinit
-#Alt: netcat-openbsd
-
 
 # Monitoring
 htop
