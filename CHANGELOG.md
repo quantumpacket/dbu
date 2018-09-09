@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [v1.6](https://github.com/nodiscc/dbu/releases/tag/1.6) - 2018-09-09
+
+### Added
+ * Add libpam-tmpdir package (per-user temporary directories)
+ * Virtualization: add virt-top and netcat-openbsd packages
+
+### Changed
+
+ * Replace gnome-system-log with gnome-logs (gnome-system-tools are deprecated)
+ * Replace livestreamer with streamlink (active fork)
+ * Replace gnome-search-tool with catfish
+ * Disable autostarting xfce4-notes
+ * Simplify and document sysctl settings
+ * Update documentation
+ * Improve Makefile download/caching/installation mechanisms
+ * Remove conky configuration from the main repository, download/install it from the Makefile
+
+### Removed
+ * Desktop utilities: Remove screenruler package (removes dependency on rake/ruby stack)
+ * Development/utilities: Remove ranger and pypi2deb package
+
+
+### Fixed
+ * Fix broken XFCE keyboard shortcuts
+ * Fix debian installer asking for the mirror directory
+
+
 ## [v1.5.1](https://github.com/nodiscc/dbu/releases/tag/1.5.1) - 2018-06-06
 
 ### Added
