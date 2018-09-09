@@ -154,7 +154,7 @@ download_dotfiles:
 	cd $(DOTFILES_CACHE_DIR)/conky-config && \
 	make install SHARE_PATH="$$WORKDIR/config/includes.chroot/usr/share/conky/" \
 		LIB_PATH="$$WORKDIR/config/includes.chroot/usr/lib/conky/" \
-		CONFIG_PATH="$$WORKDIR/config/includes/chroot/etc/skel/.config/conky/" \
+		CONFIG_PATH="$$WORKDIR/config/includes.chroot/etc/skel/.config/conky/" \
 		BIN_PATH="$$WORKDIR/config/includes.chroot/usr/local/bin/"
 
     # icon themes
