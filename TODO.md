@@ -28,6 +28,7 @@
  * [qwinff](https://qwinff.github.io/) [Issue](https://github.com/qwinff/qwinff/issues/18) [PPA](http://ppa.launchpad.net/lzh9102/qwinff/ubuntu/pool/main/q/)
  * [vertex-theme](https://github.com/horst3180/Vertex-theme) [PPA](http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/all/)
  * [youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui/releases)
+ * [lutris](https://lutris.net/) [.deb Package](https://download.opensuse.org/repositories/home:/strycore/Debian_9.0/amd64/) [RFP](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=754129)
 
 
 RFP QownNotes
