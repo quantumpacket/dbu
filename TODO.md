@@ -9,7 +9,7 @@
  * [enh] [tools] keyboard-configuration interrupts unattended build (see `debconf-get-selections  | grep keybo | grep d-i`)
  * [enh] firefox: disaply the personal toolboar by default (requires including custom `xulstore.json` in profile defaults
  * [enh] [doc] find packages without descriptions in documentation: `cd doc/packages/ && egrep "^ \* .* $$" *.md`
-
+* [test] bumblebee/primus/optirun
 
 ### Upstream
 

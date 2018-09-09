@@ -24,8 +24,8 @@ test_doc_emptylinks:
 
 test_kvm:
 	# Run the resulting image in KVM/virt-manager
-	# virt-manager must be installed, a VM using the correct ISO file must be configured
-	virt-manager --connect qemu:///system --show-domain-console dbu-test
+	# virt-manager/virt-install must be installed
+	virt-install --name dbutest --disk none --cdrom 'iso/debian/dbu-1.6-debian-stretch-amd64.hybrid.iso' --boot cdrom --memory 2048
 
 documentation:
 	# Generate package documentation pages and index
