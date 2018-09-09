@@ -148,6 +148,15 @@ download_dotfiles:
 	cp $(DOTFILES_CACHE_DIR)/user.js/autoconfig.js config/includes.chroot/usr/lib/firefox-esr/defaults/pref/autoconfig.js
 	cp $(DOTFILES_CACHE_DIR)/user.js/mozilla.cfg config/includes.chroot/usr/lib/firefox-esr/mozilla.cfg
 
+	# https://gitlab.com/nodiscc/conky-config
+	$(call git_download,https://gitlab.com/nodiscc/conky-config,$(DOTFILES_CACHE_DIR)/conky-config)
+	WORKDIR="$$PWD" && \
+	cd $(DOTFILES_CACHE_DIR)/conky-config && \
+	make install SHARE_PATH="$$WORKDIR/config/includes.chroot/usr/share/conky/" \
+		LIB_PATH="$$WORKDIR/config/includes.chroot/usr/lib/conky/" \
+		CONFIG_PATH="$$WORKDIR/config/includes/chroot/etc/skel/.config/conky/" \
+		BIN_PATH="$$WORKDIR/config/includes.chroot/usr/local/bin/"
+
     # icon themes
 	-mkdir -pv config/includes.chroot/usr/share/icons/	
 	# https://github.com/snwh/paper-icon-theme
