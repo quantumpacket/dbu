@@ -1,9 +1,10 @@
-#Name: PDFChain PDF editor
+#Name: PDF Editor and utilities
 #Desc: pdfchain
 #Screenshot: pdfchain
 
 pdfchain
 pdfgrep
+chm2pdf
 
 # Command line
 poppler-utils
@@ -16,7 +17,6 @@ poppler-utils
 #Alt: pdfcrack
 #Alt: diffpdf
 #Alt: comparepdf
-#Alt: chm2pdf
 #Alt: enscript
 #Alt: html2text
 #Alt: python-html2text
