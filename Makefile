@@ -81,8 +81,6 @@ download_firefox_addons:
 	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/file/399286/canvasblocker-0.3.0-Release-fx.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/ [e10s] [security] [FF52ESR]
 	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/file/710414/decentraleyes-1.3.10-an+fx+sm.xpi
-	#https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/ [security] [installed]
-	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/latest/no-resource-uri-leak/addon-706000-latest.xpi
 	#https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/ [security] [FF52ESR] [installed]
 	wget -N -nv --show-progress -P cache/downloads/firefox_addons/ https://addons.mozilla.org/firefox/downloads/file/717459/cookie_autodelete-1.4.4-an+fx.xpi
 
