@@ -1,6 +1,6 @@
 ## dbu - TODO
 
- * [enh] do not require passwords for package upgrades (see `org.freedesktop.packagekit.system-update` policykit policy)
+
  * [enh] Enable IPv6 support (sysctl, firewall, apt config...)
  * [enh] installer: preseed "domain name" installer question to None, preseed "full user name" question to match the unix username
  * [enh] thunderbird: add default addons
